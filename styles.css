@@ -372,8 +372,9 @@ body {
 }
 
 .highlight {
-    background-color: #F5DEB3 !important;
-    color: #8B4513;
+    background-color: #FFD700 !important;
+    color: #2C1810;
+    font-weight: bold;
 }
 
 /* Statistics Grid */
@@ -385,17 +386,19 @@ body {
 }
 
 .stat-card {
-    background: linear-gradient(135deg, #8B4513, #A0522D);
+    background: linear-gradient(135deg, #2C1810, #5D2E0A);
     color: white;
     padding: 30px 20px;
     border-radius: 15px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #8B4513;
 }
 
 .stat-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(139, 69, 19, 0.3);
+    box-shadow: 0 10px 25px rgba(44, 24, 16, 0.4);
+    border-color: #FFD700;
 }
 
 .stat-card h3 {
@@ -410,7 +413,8 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #F5DEB3;
+    color: #FFD700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 .stat-card p {
